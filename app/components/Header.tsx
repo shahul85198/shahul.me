@@ -6,13 +6,14 @@ import Image from "next/image"
 import { useTheme } from "next-themes"
 import { Moon, Sun, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import { motion } from "framer-motion"
 
 export default function Header() {
   const { theme, setTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     setMounted(true)
@@ -28,12 +29,12 @@ export default function Header() {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 flex items-center justify-center z-50 pt-6 px-4"
+      className="sticky flex items-center justify-center py-4 px-4 top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="flex items-center gap-4 md:gap-8">
+      <div className="flex items-center gap-4 md:gap-8 w-full max-w-xl md:justify-between">
         <Link href="/" className="relative size-12 rounded-full overflow-hidden border-2 border-border">
           <Image
             src="/syed-zakeer-hussain.webp?height=100&width=100"
@@ -45,23 +46,21 @@ export default function Header() {
         </Link>
 
         {/* Mobile Menu */}
-        <div className="md:hidden">
-          <Sheet>
+        <div className="md:hidden ml-auto">
+          <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="rounded-full">
                 <Menu className="h-5 w-5" />
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="top" className="w-full pt-20">
-              <SheetHeader>
-                <SheetTitle className="text-left">Navigation</SheetTitle>
-              </SheetHeader>
-              <nav className="mt-4">
+            <SheetContent side="top" className="w-full">
+              <nav className="">
                 {menuItems.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
+                    onClick={() => setOpen(false)}
                     className="flex items-center py-2 text-base font-medium text-muted-foreground transition-colors hover:text-foreground"
                   >
                     {item.label}

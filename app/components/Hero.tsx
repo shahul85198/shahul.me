@@ -35,11 +35,19 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 0.5 }}
           >
             <a
-              href="#contact"
+              href="#about"
               className="px-8 py-3 border border-primary text-base font-medium rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
             >
               Get in Touch
             </a>
+
+            <a
+              href="/Syed Zakeer Hussain-Staff-Software-Engineer-UI-Architect.pdf"
+              download
+              className="ml-4 px-8 py-3 bg-primary text-base font-medium rounded-full text-primary-foreground hover:bg-primary hover:opacity-70 transition-colors duration-300">
+              Download Resume
+            </a>
+
           </motion.div>
         </motion.div>
       </div>
