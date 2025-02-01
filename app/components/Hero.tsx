@@ -36,7 +36,7 @@ export default function Hero() {
           >
             <a
               href="#about"
-              className="px-8 py-3 border border-primary text-base font-medium rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
+              className="hidden md:inline px-8 py-3 border border-primary text-base font-medium rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
             >
               Get in Touch
             </a>
