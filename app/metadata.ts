@@ -1,9 +1,9 @@
 
 const siteConfig = {
-  name: "Syed Zakeer Hussain",
-  title: "Staff Software Engineer / UI Architect",
+  name: "Shaik Shahul Hameed",
+  title: "Front End Developer / Software Engineer / UI Developer",
   description:
-    "Portfolio of Syed Zakeer Hussain, a Staff Software Engineer specializing in fullstack Development and UI Architecture with 10 years of experience.",
+    "Portfolio of Shaik Shahul Hameed, a Staff Software Engineer specializing in fullstack Development and UI Architecture with 10 years of experience.",
   url: "https://zakeer.me",
   ogImage: "https://zakeer.me/syed-zakeer-hussain.webp",
   links: {

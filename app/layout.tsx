@@ -22,14 +22,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Syed Zakeer Hussain",
-              jobTitle: "Staff Software Engineer / UI Architect",
+              name: "Shaik Shahul Hameed",
+              jobTitle: "Front End Developer / Software Engineer / UI Developer",
               description: metadata.description,
               image: metadata.openGraph?.images[0].url,
               sameAs: [
-                "https://twitter.com/zakeer579",
-                "https://github.com/zakeer",
-                "https://linkedin.com/in/zakeer579",
+                "https://github.com/shahul85198",
+                "https://www.linkedin.com/in/shahul-hameed85/",
               ],
               url: "https://zakeer.me",
               worksFor: {
