@@ -25,7 +25,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-muted-foreground">
-            Visionary Fullstack Engineering Leader with 10 years of experience in leading cross-functional teams and
+            Visionary Front-End Developer with 5+ years of experience in cross-functional teams and
             spearheading the development of best-in-class UI solutions.
           </p>
           <motion.div

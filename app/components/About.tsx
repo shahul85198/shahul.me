@@ -46,14 +46,15 @@ export default function About() {
               architectures, and seamlessly integrating backend systems to create exceptional user experiences.
             </p>
             <p>
-              As an inspiring Team Leader and Mentor, I&apos;ve successfully led and transformed teams, elevating their
-              capabilities and empowering them to take ownership in developing high-quality UI components.
+            As a dedicated team member, I have contributed to the growth and success of my team by collaborating effectively, 
+            sharing knowledge, and taking initiative in developing high-quality UI components. I strive to elevate team capabilities 
+            and encourage ownership in delivering exceptional results.
             </p>
-            <p>
+            {/* <p>
               In the realm of AI Integration, I&apos;ve leveraged cutting-edge technologies including Large Language Models
               (LLMs) and Natural Language Processing (NLP) to enhance data-driven decision-making processes and elevate
               user experiences to new heights.
-            </p>
+            </p> */}
           </motion.div>
         </motion.div>
       </div>
