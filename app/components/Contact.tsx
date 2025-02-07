@@ -34,7 +34,7 @@ export default function Contact() {
             className="md:w-1/2 mb-8 md:mb-0"
           >
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
-            <p className="mb-2">Email: shahul@shahul.me</p>
+            <p className="mb-2">Email: shahul85198@gmail.com</p>
             <p className="mb-2">Phone: +91-8519835763</p>
             <p className="mb-2">Location: Hyderabad, India</p>
             <p className="mb-2">
