@@ -14,10 +14,10 @@ export default function Hero() {
           className="text-center"
         >
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl mb-6">
-            <span className="block">Syed Zakeer Hussain</span>
+            <span className="block">Shaik Shahul Hameed</span>
             <span className="block text-primary mt-2">
               <TypeAnimation
-                sequence={["Staff Software Engineer", 2000, "Frontend UI Architect", 2000, "Team Lead", 2000]}
+                sequence={["Software Engineer", 2000, "UI Developer", 2000 ]}
                 wrapper="span"
                 speed={50}
                 repeat={Number.POSITIVE_INFINITY}
@@ -25,7 +25,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-muted-foreground">
-            Visionary Staff Fullstack Engineering Leader with 10 years of experience in leading cross-functional teams and
+            Visionary Fullstack Engineering Leader with 10 years of experience in leading cross-functional teams and
             spearheading the development of best-in-class UI solutions.
           </p>
           <motion.div

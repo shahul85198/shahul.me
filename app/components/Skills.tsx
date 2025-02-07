@@ -8,42 +8,42 @@ export default function Skills() {
       category: "Frontend Development",
       items: [
         { name: "React", level: 95 },
-        { name: "Angular", level: 90 },
-        { name: "Vue.js", level: 85 },
+        { name: "Redux", level: 90 },
+        { name: "Next.js", level: 85 },
         { name: "TypeScript", level: 95 },
         { name: "JavaScript", level: 98 },
       ],
     },
-    {
-      category: "Backend Development",
-      items: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "Java", level: 80 },
-        { name: "RESTful APIs", level: 95 },
-        { name: "GraphQL", level: 85 },
-      ],
-    },
-    {
-      category: "AI/ML Integration",
-      items: [
-        { name: "TensorFlow", level: 80 },
-        { name: "PyTorch", level: 75 },
-        { name: "NLP", level: 85 },
-        { name: "LLMs", level: 80 },
-        { name: "Data Analysis", level: 90 },
-      ],
-    },
-    {
-      category: "Cloud & DevOps",
-      items: [
-        { name: "AWS", level: 85 },
-        { name: "Docker", level: 90 },
-        { name: "Kubernetes", level: 80 },
-        { name: "CI/CD", level: 90 },
-        { name: "Microservices", level: 85 },
-      ],
-    },
+    // {
+    //   category: "Backend Development",
+    //   items: [
+    //     { name: "Node.js", level: 90 },
+    //     { name: "Python", level: 85 },
+    //     { name: "Java", level: 80 },
+    //     { name: "RESTful APIs", level: 95 },
+    //     { name: "GraphQL", level: 85 },
+    //   ],
+    // },
+    // {
+    //   category: "AI/ML Integration",
+    //   items: [
+    //     { name: "TensorFlow", level: 80 },
+    //     { name: "PyTorch", level: 75 },
+    //     { name: "NLP", level: 85 },
+    //     { name: "LLMs", level: 80 },
+    //     { name: "Data Analysis", level: 90 },
+    //   ],
+    // },
+    // {
+    //   category: "Cloud & DevOps",
+    //   items: [
+    //     { name: "AWS", level: 85 },
+    //     { name: "Docker", level: 90 },
+    //     { name: "Kubernetes", level: 80 },
+    //     { name: "CI/CD", level: 90 },
+    //     { name: "Microservices", level: 85 },
+    //   ],
+    // },
   ]
 
   return (

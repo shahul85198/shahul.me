@@ -30,7 +30,7 @@ export default function RootLayout({
                 "https://github.com/shahul85198",
                 "https://www.linkedin.com/in/shahul-hameed85/",
               ],
-              url: "https://zakeer.me",
+              url: "https://shahul.me",
               worksFor: {
                 "@type": "Organization",
                 name: "SAP SuccessFactors",
@@ -43,11 +43,10 @@ export default function RootLayout({
                 "Frontend Development",
                 "UI Architecture",
                 "React",
-                "Angular",
-                "Vue.js",
+                "Redux",
+                "Next.js",
                 "TypeScript",
                 "JavaScript",
-                "AI/ML Integration",
               ],
             }),
           }}

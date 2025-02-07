@@ -34,18 +34,18 @@ export default function Contact() {
             className="md:w-1/2 mb-8 md:mb-0"
           >
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
-            <p className="mb-2">Email: zakeer@zakeer.me</p>
-            <p className="mb-2">Phone: +91-9030297962</p>
+            <p className="mb-2">Email: shahul@shahul.me</p>
+            <p className="mb-2">Phone: +91-8519835763</p>
             <p className="mb-2">Location: Hyderabad, India</p>
             <p className="mb-2">
               LinkedIn:{" "}
               <a
-                href="https://linkedin.com/in/zakeer579"
+                href="https://www.linkedin.com/in/shahul-hameed85/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                linkedin.com/in/zakeer579
+                linkedin.com/in/shahul-hameed85
               </a>
             </p>
           </motion.div>

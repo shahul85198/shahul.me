@@ -3,13 +3,12 @@ const siteConfig = {
   name: "Shaik Shahul Hameed",
   title: "Front End Developer / Software Engineer / UI Developer",
   description:
-    "Portfolio of Shaik Shahul Hameed, a Staff Software Engineer specializing in fullstack Development and UI Architecture with 10 years of experience.",
-  url: "https://zakeer.me",
+    "Portfolio of Shaik Shahul Hameed, a Software Engineer specializing in front-End Development and UI Developer with 5+ years of experience.",
+  url: "https://shahul.me/",
   ogImage: "https://zakeer.me/syed-zakeer-hussain.webp",
   links: {
-    twitter: "https://twitter.com/zakeer579",
-    github: "https://github.com/zakeer",
-    linkedin: "https://linkedin.com/in/zakeer579",
+    github: "https://github.com/shahul85198",
+    linkedin: "https://www.linkedin.com/in/shahul-hameed85/",
   },
 }
 
@@ -21,14 +20,13 @@ export const metadata = {
   description: siteConfig.description,
   keywords: [
     "Frontend Engineer",
-    "UI Architect",
+    "UI Developer",
     "React",
-    "Angular",
-    "Vue.js",
+    "Redux",
+    "Next.js",
     "TypeScript",
     "JavaScript",
-    "AI/ML Integration",
-    "Senior Software Engineer",
+    "Software Engineer",
     "Web Development",
   ],
   authors: [
@@ -66,7 +64,7 @@ export const metadata = {
     },
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@zakeer579",
+    creator: "@shahul-hameed85",
   },
   robots: {
     index: true,

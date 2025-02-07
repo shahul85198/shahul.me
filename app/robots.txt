@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zakeer.me/sitemap.xml
+Sitemap: https://shahul.me/sitemap.xml
 
