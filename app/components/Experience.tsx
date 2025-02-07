@@ -5,42 +5,29 @@ import { motion } from "framer-motion"
 export default function Experience() {
   const experiences = [
     {
-      company: "SAP SuccessFactors",
-      position: "Senior Software Engineer",
-      period: "Since Aug 2021",
+      company: "Ingrain Systems Pvt. Ltd (Client was GAP Inc)",
+      position: "UI Developer",
+      period: "Since Aug 2024",
       description:
-        "Driving innovation by delivering impactful features across multiple SAP SuccessFactors modules, and leading the Growth Portfolio module to deliver market-leading functionalities.",
+        "Driving innovation by delivering impactful features across multiple GAP Product modules, and building the managing retail or inventory orders to deliver market-leading functionalities.",
       achievements: [
-        "Strategically enhanced the Growth Portfolio module through innovative UI solutions, integrating state-of-the-art AI technologies.",
-        "Spearheaded the creation of scalable and high-performance UI architecture.",
-        "Led and mentored a team of frontend engineers, fostering a culture of continuous learning and innovation.",
-        "Pioneered the integration of AI/ML technologies, notably Large Language Models (LLMs) and Natural Language Processing (NLP).",
+        "Strategically enhanced the GAP Product module through innovative UI solutions, integrating state-of-the-art UI development.",
+        "Spearheaded the creation of scalable and high-performance UI development.",
+        "I am part of a team of frontend engineers, fostering a culture of continuous learning and innovation.",
+        "Pioneered the integration of updated technologies, notably React Js latest versions and  Next Js versions",
       ],
     },
     {
-      company: "SwoopTalent (Acquired by SAP)",
-      position: "Senior Software Engineer",
-      period: "Apr 2019 - Aug 2021",
+      company: "Trangla Innovations Pvt Ltd (Client was HCL Technologies)",
+      position: "Frontend Developer",
+      period: "May 2019 - july 2024",
       description:
-        "Contributed to the creation of SwoopTalent's AI-powered data platform that combines, analyzes, and trains data from human resource systems and workflows.",
+        "Contributed to the creation of Trangla's Service data platform that combines, analyzes, and trains data from human resource systems and workflows.",
       achievements: [
-        "Directed the frontend development for the AI-powered data platform, enhancing user experience through intuitive UI designs.",
+        "Directed the frontend development for the Service data platform, enhancing user experience through intuitive UI designs.",
         "Steered the development of responsive UI patterns and best practices, significantly improving application performance and user engagement.",
         "Enhanced the team's agile practices, improving sprint velocity and project delivery times.",
         "Crafted and executed a strategic project roadmap, aligning with business goals, resulting in successful on-time delivery of key initiatives.",
-      ],
-    },
-    {
-      company: "Turpy Mobile Apps Pvt Ltd",
-      position: "Senior Software Engineer",
-      period: "Nov 2014 – Apr 2019",
-      description:
-        "Designed, developed, and maintained robust full-stack web applications utilizing a variety of front-end technologies.",
-      achievements: [
-        "Developed full-stack web applications using React, VueJS, Angular, and backend technologies such as NodeJS, Java, and Python.",
-        "Integrated new technologies to drive innovation and maintain competitiveness in software solutions.",
-        "Led the development efforts for the Playat Application, providing strategic guidance and ensuring successful project delivery.",
-        "Implemented best practices throughout the software development lifecycle, emphasizing testing, integration, and code quality.",
       ],
     },
   ]

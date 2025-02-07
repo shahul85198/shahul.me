@@ -5,22 +5,34 @@ import { motion } from "framer-motion"
 export default function Projects() {
   const projects = [
     {
-      title: "SAP SuccessFactors Growth Portfolio Module",
+      title: "Shared Components UI",
       description:
-        "Led the development of innovative UI solutions and integrated AI technologies to enhance the Growth Portfolio module.",
-      technologies: ["React", "TypeScript", "AI/ML Integration"],
+        "Shared Components UI is a reusable library of pre-built, customizable components like buttons, modals, and forms. It ensures design consistency, boosts development efficiency, and follows accessibility standards across projects.",
+      technologies: ["Javascript", "React.js", "Redux", "Next.js", "Tailwindcss", "RadixUi", "Typescript"],
     },
     {
-      title: "SwoopTalent AI-powered Data Platform",
+      title: "Gloss Order UI [Global Logistics Order Supply System]",
       description:
-        "Directed frontend development for an AI-powered data platform that combines and analyzes data from HR systems and workflows.",
-      technologies: ["Vue.js", "Node.js", "Machine Learning"],
+        "Gloss Order UI is a front-end project for managing retail or inventory orders. It offers a clean, user-friendly interface for order creation, tracking, updates, and management. Designed with a modular architecture, it ensures scalability and easy maintenance.",
+      technologies: ["Javascript", "React.js", "Redux", "Next.js", "Tailwindcss", "RadixUi", "xlsx", "Typescript"],
     },
     {
-      title: "Playat Application",
+      title: "Job Board",
       description:
-        "Led the development efforts for the Playat Application, providing strategic guidance and ensuring successful project delivery.",
-      technologies: ["React Native", "GraphQL", "AWS"],
+        "The React-based job board connects job seekers and employers through a user-friendly interface. Job seekers can browse, filter, and apply for jobs, while employers can post listings and manage applications. The platform includes authentication, data storage, and third-party API integration for enhanced functionality.",
+      technologies: ["Next.js", "TypeScript", "Tailwindcss", "Shadcn/UI", "Javascript", "React.js", "Redux"],
+    },
+    {
+      title: "SquareMHCS",
+      description:
+        "Square Medical and Health Care Services, led by ex-servicemen with 20+ years in the Indian Armed Forces, provides doorstep healthcare. Committed to community health, it promotes awareness, builds partnerships, and continuously improves services to stay at the forefront of healthcare innovation.",
+      technologies: ["Next.js", "TypeScript", "React Router", "React.js", "Redux", "Tailwindcss"],
+    },
+    {
+      title: "Screen Sharing Application",
+      description:
+        "LIntegrated a robust screen-sharing feature in a React-based project for seamless real-time collaboration. Developed intuitive frontend components for session management and implemented backend authentication and session tracking for security. Demonstrated expertise in React, real-time communication, and backend integration.",
+      technologies: ["Javascript", "React.js", "tailwindcss", "RadixUi", "Typescript"],
     },
   ]
 

@@ -5,7 +5,7 @@ const siteConfig = {
   description:
     "Portfolio of Shaik Shahul Hameed, a Software Engineer specializing in front-End Development and UI Developer with 5+ years of experience.",
   url: "https://shahul.me/",
-  ogImage: "https://zakeer.me/syed-zakeer-hussain.webp",
+  ogImage: "https://shahul.me/shaik-shahul-hameed.webp",
   links: {
     github: "https://github.com/shahul85198",
     linkedin: "https://www.linkedin.com/in/shahul-hameed85/",

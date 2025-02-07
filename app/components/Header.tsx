@@ -37,7 +37,7 @@ export default function Header() {
       <div className="flex items-center gap-4 md:gap-8 w-full max-w-xl md:justify-between">
         <Link href="/" className="relative size-12 rounded-full overflow-hidden border-2 border-border">
           <Image
-            src="/syed-zakeer-hussain.webp?height=100&width=100"
+            src="/shaik-shahul-hameed.webp?height=100&width=100"
             alt="Profile"
             width={48}
             height={48}

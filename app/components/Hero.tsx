@@ -42,7 +42,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Syed Zakeer Hussain-Staff-Software-Engineer-UI-Architect.pdf"
+              href="/Shaik Shahul Hameed-Software-Engineer.pdf"
               download
               className="ml-4 px-8 py-3 bg-primary text-base font-medium rounded-full text-primary-foreground hover:bg-primary hover:opacity-70 transition-colors duration-300">
               Download Resume
