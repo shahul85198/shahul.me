@@ -67,7 +67,7 @@ export default function Skills() {
                       <span className="text-base font-medium">{skill.name}</span>
                       <span className="text-sm font-medium text-primary">{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-secondary rounded-full h-1">
+                    <div className="w-full bg-secondary rounded-full h-1" >
                       <motion.div
                         className="bg-primary h-1 rounded-full"
                         initial={{ width: 0 }}
