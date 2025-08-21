@@ -14,6 +14,35 @@ export default function Skills() {
         { name: "JavaScript", level: 98 },
       ],
     },
+    {
+      category: "AI-Enhanced Development",
+      items: [
+        { name: "GitHub Copilot", level: 90 },
+        { name: "ChatGPT", level: 95 },
+        { name: "Vibe Coding", level: 80 },
+        { name: "Tabnine", level: 80 },
+      ],
+    },
+    {
+      category: "CSS frameworks/libraries",
+      items: [
+        { name: "Tailwind CSS", level: 90 },
+        { name: "Bootstrap", level: 85 },
+        { name: "Material-UI", level: 80 },
+        { name: "Shadcn/UI", level: 95 },
+        { name: "RadixUi", level: 85 },
+      ],
+    },
+    {
+      category: "Tools",
+      items: [
+        { name: "Git", level: 90 },
+        { name: "Webpack", level: 85 },
+        { name: "Babel", level: 80 },
+        { name: "ESLint", level: 95 },
+        { name: "Visual Studio Code", level: 95 },
+      ],
+    },
     // {
     //   category: "Backend Development",
     //   items: [

@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 0.5 }}
           >
             <a
-              href="#about"
+              href="#contact"
               className="hidden md:inline px-8 py-3 border border-primary text-base font-medium rounded-full text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
             >
               Get in Touch
